@@ -1,15 +1,12 @@
 {
-  "homepage": "https://siuglukas.github.io/",
   "name": "nextjs-countries",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "test": "jest",
-    "deploy": "gh-pages -d out"
+    "test": "jest"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.1.1",
@@ -23,7 +20,5 @@
     "react-infinite-scroll-component": "^6.0.0",
     "react-outside-click-handler": "^1.3.0"
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
+  "devDependencies": {}
 }
